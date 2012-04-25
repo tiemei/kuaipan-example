@@ -1,0 +1,9 @@
+!!!
+%html(xml:lang='en' lang='en' xmlns='http://www.w3.org/1999/xhtml')
+  %head
+    %meta(content='text/html;charset=UTF-8' http-equiv='content-type')
+    %title="kuaipan gem example"
+  %body
+    %h2="kuaipan gem example"
+    %a{:href => (session[:ok] ? "/logout" : "/connect")}=(session[:ok] ? "logout" : "connect")
+    = yield
