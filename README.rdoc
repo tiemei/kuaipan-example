@@ -1,0 +1,5 @@
+= kuaipan-example
+A example that show how to use kuaipan.gem
+You can run it.Then you show input your account info of kuaipan.
+  ruby example.rb
+
