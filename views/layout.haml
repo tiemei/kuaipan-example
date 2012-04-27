@@ -5,5 +5,5 @@
     %title="kuaipan gem example"
   %body
     %h2="kuaipan gem example"
-    %a{:href => (session[:ok] ? "/logout" : "/connect")}=(session[:ok] ? "logout" : "connect")
+    %a{:href => (session[:k_session] ? "/logout" : "/connect")}=(session[:k_session] ? "logout" : "connect")
     = yield

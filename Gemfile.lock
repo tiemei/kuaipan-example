@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/tiemei/kuaipan.git
+  revision: b836570e59eaf40767eaa4d470631ba4a8766c07
+  ref: b836570e59e
+  specs:
+    kuaipan (0.0.1.beta.11)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -16,4 +23,5 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  kuaipan!
   sinatra
