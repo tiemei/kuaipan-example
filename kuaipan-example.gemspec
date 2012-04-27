@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.files = [
       "Gemfile",
       "Gemfile.lock",
-      "README.md",
+      "README.rdoc",
       "example.rb",
       "kuaipan-example.gemspec",
       "views/index.haml",
