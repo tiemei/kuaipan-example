@@ -1,5 +1,9 @@
 = kuaipan-example
 A example that show how to use kuaipan.gem
-You can run it.Then you show input your account info of kuaipan.
+You can run it.
+  gem install kuaipan
+  git clone git://github.com/tiemei/kuaipan-example.git
+  cd kuaipan-example
   ruby example.rb
+
 

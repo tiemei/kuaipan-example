@@ -1,3 +1,6 @@
+require "rubygems"
+require "bundler/setup"
+
 require 'sinatra'
 require 'kuaipan'
 require 'haml'
@@ -33,5 +36,5 @@ get '/user_info' do
 end
 
 get '/logout' do
-  p 'logou'
+  p 'logout'
 end
